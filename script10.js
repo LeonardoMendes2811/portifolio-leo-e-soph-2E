@@ -1,6 +1,6 @@
 function contar() {
     let mostraHTML = document.getElementById("mostraHTML");
-
+let contar
     let contador = 1;
 
     while (contador <= 10) {
@@ -10,10 +10,12 @@ function contar() {
 
      mostraHTML.innerHTML += `${contador}&#128556;  `;
 
-     parOuimpar = contador % 2;
+  parOuimpar = contador % 2 ;
 }
-if (parOuimpar== 0) { 
-    alert("O número " + contador + " é par")
-     <contar/mark> "o numero é par" <contar/mark>
+if (parOuimpar== 0) {
+   lert = ( <mark> + resultado + </mark> ) 
+} else {
+    alert( <b>resultado </b> );
+}
 
-}
+
